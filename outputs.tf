@@ -17,3 +17,8 @@ output "admin_user_key_pem" {
   value     = tls_private_key.admin_user_key.private_key_pem
   sensitive = true
 }
+
+output "ca_cert_pem" {
+  value     = var.ca_cert_pem
+  sensitive = true
+}
