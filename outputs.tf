@@ -22,3 +22,8 @@ output "ca_cert_pem" {
   value     = var.ca_cert_pem
   sensitive = true
 }
+
+output "ca_private_key_pem" {
+  value       = var.ca_private_key_pem
+  sensitive   = true
+}
